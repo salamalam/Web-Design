@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitdurr</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<style type="text/css">
+		#navbar {
+			background-color: orange;
+		}
+		#profile {
+			background-color: pink;
+		}
+
+		#posts {
+			background-color: yellow;
+		}
+		#suggestions {
+			background-color: pink;
+		}
+		#left-sidebar {
+			background-color: green;
+		}
+		}
+		#footer {
+			background-color: orange;
+		}
+		.post-image{
+			width: 200px;
+			height: 200px;
+			border-radius: 70%
+		}
+		.post{
+
+			border-bottom: 2px solid red;
+		}
+		#navbar-ul {
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		.navbar-li {
+			display: inline-block;
+			padding-right: 40px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			line-height: 30px;
+		}
+
+		.fa-earlybirds {
+			color: green;
+			font-size: 30px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div id="navbar" class="col-12">
+			
+			<ul id="navbar-ul">
+				<li class="navbar-li"><i class="fab fa-earlybirds"></i></li>
+					<li class="navbar-li"><a href="https://google.com">Home</a></li>
+					<li class="navbar-li"><a href="https://google.com">Posts</a></li>
+					<li class="navbar-li"><a href="https://google.com">Profile</a></li>
+					<li class="navbar-li"><a href="https://google.com">Notifications</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id= "main-content" class="row">
+			<div id="left-sidebar" class="col-3">
+				Runway 101
+			</div>
+			<div id="posts" class="col-10">
+				<div class="post row">
+					<div class="col-4 img-side">
+						<img class="post-image" src="https://www.telegraph.co.uk/content/dam/fashion/2017/02/23/AW17CG-Gucci-182_trans_NvBQzQNjv4Bq-gaKsLgbA6-uokDv4MbJV2o9fJk1VK1SIba-RpWNnOU.jpg?imwidth=450" >
+					</div> 
+					<div class="col-8 text-side"> 
+					<p>Gucci Spring-Summer 2018</p>
+					<p>Gucci is all red and floral this season, mother nature would be proud!</p>
+					</div>
+				</div>
+
+				<div class="post row">
+					<div class="col-4 img-side">
+						<img class="post-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl5XwevKOK1HcDVg9b81Hmnmbvok9TF-0eh3JGXWIL_DCkQUlY5g" >
+					</div> 
+					<div class="col-8 text-side"> 
+					<p>Prada Spring-Summer 2018</p>
+					<p>Red is in this year. A basic tee with a pop of color on the bottom is how Prada does it.</p>
+					</div>
+				</div>
+
+				<div class="post row">
+					<div class="col-4 img-side">
+						<img class="post-image" src="https://d36di5nvqr47bo.cloudfront.net/photos/23072/93419/louis-vuitton-ready-to-wear-spring-summer-2018-paris-23072-looks-20171003-1103112/Louis-Vuitton-RTW-SS18-Paris-0999-1507056928-thumb.jpg" >
+					</div> 
+					<div class="col-8 text-side"> 
+					<p>Louis Vuitton Spring-Summer 2018</p>
+					<p>Of course Louis goes for the classic look this year. This coat is to die for!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div id="footer" class="col-12">
+				<i class="far fa-heart"></i>Hope you enjoyed!
+			</div>
+		</div>
+	</div>
+</body>
+</html>
